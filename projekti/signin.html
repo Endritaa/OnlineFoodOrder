@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nando's</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"  href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu-bar">
+                <div class="left-nav">
+                    <div class="logo">
+                        <img src="images/nandos.png" class="icon">
+                    </div>
+                        <ul class="left-list">
+                            <li>Home</li>
+                            <li>Menu</li>
+                            <li>Order</li>
+                            <li>About us</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-nav">
+                    <ul class="right-list">
+                        <li><input class="sign-in" value="Sign in"></input></li>
+                        <li><input class="sign-up" value="Sign up"></input></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button class="toggle-btn" onclick="login()">Log In</button>
+                    <button class="toggle-btn" onclick="register()">Register</button>
+                </div>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chech-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="email" class="input-field" placeholder="Email ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chech-box"><span>I agree to the terms&conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </section>
+        <footer>
+            FOOTER
+        </footer>
+        <script src="main.js"></script>
+    </body>
+    </html>
